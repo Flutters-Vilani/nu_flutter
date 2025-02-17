@@ -36,12 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(1),
-        child: AppBar(
-          backgroundColor: Color.fromARGB(255, 91, 27, 138),
-        ),
-      ),
+      // appBar: PreferredSize(
+      //   preferredSize: Size.fromHeight(150),
+      //   child: AppBarPersonalizada(),
+      //   // AppBar(
+      //   //   backgroundColor: Color.fromARGB(255, 91, 27, 138),
+      //   // ),
+      // ),
       body: Stack(
         children: [
           SingleChildScrollView(
