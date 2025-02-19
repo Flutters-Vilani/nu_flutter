@@ -13,7 +13,7 @@ class _AppBarPersonalizadaState extends State<AppBarPersonalizada> {
   Widget build(BuildContext context) {
     return Container(
       // margin: EdgeInsets.only(top: 50),
-      padding: EdgeInsets.only(left: 20, right: 10, bottom: 20),
+      padding: EdgeInsets.only(top: 70, left: 20, right: 10, bottom: 20),
       color: Color.fromARGB(255, 91, 27, 138),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
