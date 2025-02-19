@@ -4,6 +4,7 @@ import 'package:nu_flutter/fatura_cartao_de_credito.dart';
 import 'package:nu_flutter/lista_funcionalidades_bancarias.dart';
 import 'package:nu_flutter/meus_cartoes.dart';
 import 'package:nu_flutter/saldo_em_conta.dart';
+import 'descubra_mais.dart';
 import 'divider_personalizada.dart';
 import 'navbar_personalizada.dart';
 import 'opcao_de_emprestimo.dart';
@@ -57,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 DividerPersonalizada(),
                 OpcaoDeEmprestimo(),
                 DividerPersonalizada(),
+                DescubraMais(),
               ],
             ),
           ),
